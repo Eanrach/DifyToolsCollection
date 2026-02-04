@@ -1,0 +1,34 @@
+identity:
+  name: "create_files_from_structure"
+  author: "eanrach"
+  label:
+    en_US: "Structured File Creation"
+    zh_Hans: "Structured File Creation"
+    pt_BR: "Structured File Creation"
+    ja_JP: "Structured File Creation"
+description:
+  human:
+    en_US: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+    zh_Hans: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+    pt_BR: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+    ja_JP: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+  llm: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+parameters:
+  - name: structure
+    type: string
+    required: true
+    label:
+      en_US: structure
+      zh_Hans: 目录结构
+      pt_BR: Estrutura de arquivo
+      ja_JP: フォルダ構造
+    human_description:
+      en_US: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+      zh_Hans: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+      pt_BR: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+      ja_JP: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+    llm_description: "接收一个包含`file_structure`和`files`的JSON字符串，创建相应的目录和文件，并返回完整目录压缩包。\n输入示例：\n{\n    {\n      \"file_structure\": [\n        \"path/to/file1.py\",\n        \"path/to/file2.txt\"\n      ],\n      \"files\": [\n        {\n          \"filename\": \"path/to/file1.py\",\n          \"content\": \"print('Hello World')\"\n        },\n        {\n          \"filename\": \"path/to/file2.txt\",\n          \"content\": \"This is a text file\"\n        }\n      ]\n    }\n}"
+    form: llm
+extra:
+  python:
+    source: tools/create_files_from_structure.py

@@ -1,0 +1,179 @@
+# Byte-compiled / optimized / DLL files
+create_files_from_structure/__pycache__/
+create_files_from_structure/*.py[cod]
+create_files_from_structure/*$py.class
+
+# C extensions
+create_files_from_structure/*.so
+
+# Distribution / packaging
+create_files_from_structure/.Python
+create_files_from_structure/build/
+create_files_from_structure/develop-eggs/
+create_files_from_structure/dist/
+create_files_from_structure/downloads/
+create_files_from_structure/eggs/
+create_files_from_structure/.eggs/
+create_files_from_structure/lib/
+create_files_from_structure/lib64/
+create_files_from_structure/parts/
+create_files_from_structure/sdist/
+create_files_from_structure/var/
+create_files_from_structure/wheels/
+create_files_from_structure/share/python-wheels/
+create_files_from_structure/*.egg-info/
+create_files_from_structure/.installed.cfg
+create_files_from_structure/*.egg
+create_files_from_structure/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+create_files_from_structure/*.manifest
+create_files_from_structure/*.spec
+
+# Installer logs
+create_files_from_structure/pip-log.txt
+create_files_from_structure/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+create_files_from_structure/htmlcov/
+create_files_from_structure/.tox/
+create_files_from_structure/.nox/
+create_files_from_structure/.coverage
+create_files_from_structure/.coverage.*
+create_files_from_structure/.cache
+create_files_from_structure/nosetests.xml
+create_files_from_structure/coverage.xml
+create_files_from_structure/*.cover
+create_files_from_structure/*.py,cover
+create_files_from_structure/.hypothesis/
+create_files_from_structure/.pytest_cache/
+create_files_from_structure/cover/
+
+# Translations
+create_files_from_structure/*.mo
+create_files_from_structure/*.pot
+
+# Django stuff:
+create_files_from_structure/*.log
+create_files_from_structure/local_settings.py
+create_files_from_structure/db.sqlite3
+create_files_from_structure/db.sqlite3-journal
+
+# Flask stuff:
+create_files_from_structure/instance/
+create_files_from_structure/.webassets-cache
+
+# Scrapy stuff:
+create_files_from_structure/.scrapy
+
+# Sphinx documentation
+create_files_from_structure/docs/_build/
+
+# PyBuilder
+create_files_from_structure/.pybuilder/
+create_files_from_structure/target/
+
+# Jupyter Notebook
+create_files_from_structure/.ipynb_checkpoints
+
+# IPython
+create_files_from_structure/profile_default/
+create_files_from_structure/ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+create_files_from_structure/.pdm.toml
+create_files_from_structure/.pdm-python
+create_files_from_structure/.pdm-build/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+create_files_from_structure/__pypackages__/
+
+# Celery stuff
+create_files_from_structure/celerybeat-schedule
+create_files_from_structure/celerybeat.pid
+
+# SageMath parsed files
+create_files_from_structure/*.sage.py
+
+# Environments
+create_files_from_structure/.env
+create_files_from_structure/.venv
+create_files_from_structure/env/
+create_files_from_structure/venv/
+create_files_from_structure/ENV/
+create_files_from_structure/env.bak/
+create_files_from_structure/venv.bak/
+
+# Spyder project settings
+create_files_from_structure/.spyderproject
+create_files_from_structure/.spyproject
+
+# Rope project settings
+create_files_from_structure/.ropeproject
+
+# mkdocs documentation
+create_files_from_structure//site
+
+# mypy
+create_files_from_structure/.mypy_cache/
+create_files_from_structure/.dmypy.json
+create_files_from_structure/dmypy.json
+
+# Pyre type checker
+create_files_from_structure/.pyre/
+
+# pytype static type analyzer
+create_files_from_structure/.pytype/
+
+# Cython debug symbols
+create_files_from_structure/cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+create_files_from_structure/.idea/
+
+# Vscode
+create_files_from_structure/.vscode/
+
+# macOS
+create_files_from_structure/.DS_Store
+create_files_from_structure/.AppleDouble
+create_files_from_structure/.LSOverride
+
+# Test files
+create_files_from_structure/.test.py

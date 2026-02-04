@@ -1,0 +1,44 @@
+version: 0.0.1
+type: plugin
+author: eanrach
+name: create_files_from_structure
+label:
+  en_US: Structured File Creation
+  ja_JP: 構造化ファイル作成ツール
+  zh_Hans: 结构化文件创建工具
+  pt_BR: Ferramenta de Criação de Arquivos Estruturados
+description:
+  en_US: The plugin receives file structures and content, creates the corresponding directories and files, and returns a compressed package of the complete directory.
+  ja_JP: 構造化ファイル作成ツール：プラグインはファイル構造とコンテンツを受信し、対応するディレクトリおよびファイルを作成した上で、ディレクトリ全体の圧縮パッケージを返却します。
+  zh_Hans: 结构化文件创建工具，插件接收文件结构和内容，创建相应的目录和文件，并返回完整目录压缩包。
+  pt_BR: O plugin recebe as estruturas e conteúdos de arquivos, cria os diretórios e arquivos correspondentes e retorna um pacote compactado do diretório completo.
+icon: icon.svg
+icon_dark: icon-dark.svg
+resource:
+  memory: 268435456
+  permission:
+    tool:
+      enabled: true
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+    storage:
+      enabled: true
+      size: 1048576
+plugins:
+  tools:
+    - provider/create_files_from_structure.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: null
+created_at: 2026-02-04T22:59:13.1634036+08:00
+privacy: PRIVACY.md
+verified: false
